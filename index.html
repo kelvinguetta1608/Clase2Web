@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta charset="UTF-8"> <!--comentario-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content = "esta es una pagina para aprender a hacer sitios web">
     <meta name="keywords" content="html, css, javascript">
@@ -9,6 +9,75 @@
     <title>Document</title>
 </head>
 <body>
-    
+    <header>
+        <nav>
+            <i href="">home</i>
+            <i>about</i>
+            <i>contact</i>
+            <i>blog</i>
+            
+        </nav>
+    </header>
+<main>
+    <img src="https://pbs.twimg.com/media/D5hh30nWkAA9051?format=jpg&name=large" alt="foto barcelona" >
+</main>
+<video width="400" controls >
+    <source src="assets/conejo.mp4" type="video/mp4">
+    <source src="assets/conejo.ogg" type="video/ogg">
+</video>
+<audio controls>
+    <source src="assets/horse.ogm" type="audio/ogg">
+</audio>
+<iframe name="uao" src="https://www.youtube.com/embed/x4D1L7jZ3u0?si=BIcmlXrKDWsFuCk1" frameborder="0" width="100%" height="500">
+
+</iframe>
+<a href="https://www.google.com">abrir link de google</a>
+<table>
+    <tr><!--filas-->
+        <th><!--columnas--><img src="https://pbs.twimg.com/media/D5hh30nWkAA9051?format=jpg&name=large" alt="foto barcelona" width="400" height="500"></th>
+        <th><video width="400" controls >
+            <source src="assets/conejo.mp4" type="video/mp4">
+            <source src="assets/conejo.ogg" type="video/ogg">
+        </video>
+        </th>
+        <th><iframe name="uao" src="https://www.youtube.com/embed/x4D1L7jZ3u0?si=BIcmlXrKDWsFuCk1" frameborder="0" width="100%" height="500">
+
+        </iframe>
+        </th>
+    </tr>
+    <tr><!--filas-->
+        <th><!--columnas-->col1</th>
+        <th>col1</th>
+        <th>col1</th>
+    </tr>
+    <tr><!--filas-->
+        <th><!--columnas-->col1</th>
+        <th>col1</th>
+        <th>col1</th>
+    </tr>
+</table>
+<form method="post" action="">
+    <label for="">nombre</label>
+    <input type="text" id="name" placeholder="nombre">
+    <input type="email"placeholder="email">
+    <textarea name="description" id="" cols="30" rows="10"></textarea>
+    <label for="">password</label>
+    <input type="password" placeholder="password">
+    <label for="">fecha de nacimiento</label>
+    <input type="date">
+    <label for="">check list</label>
+    <input type="checkbox" name=""id="">
+    <label for="">active</label>
+    <button>enviar</button>
+</form>
+<form action="" method="post">
+    <select name="" id="">
+        <option disabled selected>elige una opcion: </option>
+        <option value="1">opcion 1 </option>
+        <option value="2">opcion 2 </option>
+        <option value="3">opcion 3 </option>
+    </select>
+    <input type="submit" value="enviar">
+</form>
 </body>
 </html>
